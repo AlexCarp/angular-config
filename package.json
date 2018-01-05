@@ -1,0 +1,55 @@
+{
+  "name": "angular-config",
+  "version": "1.0.0",
+  "description": "My config for project on Angular 2+, webpack, pug, less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexCarp/angular-config.git"
+  },
+  "author": "Alex Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexCarp/angular-config/issues"
+  },
+  "homepage": "https://github.com/AlexCarp/angular-config#readme",
+  "dependencies": {
+    "@angular/common": "~5.0.0",
+    "@angular/compiler": "~5.0.0",
+    "@angular/core": "~5.0.0",
+    "@angular/forms": "~5.0.0",
+    "@angular/platform-browser": "~5.0.0",
+    "@angular/platform-browser-dynamic": "~5.0.0",
+    "@angular/router": "~5.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "angular-router-loader": "^0.6.0",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.3.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "pug": "^2.0.0-rc.2",
+    "pug-html-loader": "^1.1.5",
+    "pug-loader": "^2.3.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.19.0",
+    "typescript": "^2.6.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
